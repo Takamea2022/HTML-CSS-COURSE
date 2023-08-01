@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Tutorial</title>
+</head>
+<body style="padding-bottom: 1000px;">
+
+<div  style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  ">
+    <div style="background-color: blueviolet;">div 1</div>
+    <div style="background-color: aqua;">div 2 <p>This is paragraph</p>
+    </div>
+</div>
+
+<div  style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  ">
+    <div style="background-color: blueviolet;">div 1</div>
+    <div style="background-color: aqua;">div 2 <p>This is paragraph</p>
+    </div>
+    <div style="background-color: blueviolet;">div 3</div>
+    <div style="background-color: yellow;">div 4</div>
+</div>
+
+<div  style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  ">
+   <!-- 1fr (fr) means free space just like ratio  -->
+
+    <div style="background-color: blueviolet;">div 1</div>
+    <div style="background-color: aqua;">1fr <p>This is paragraph</p>
+    </div>
+</div>
+ 
+<div  style="
+margin-top: 30px;
+display: grid;
+grid-template-columns: 100px 1fr 1fr;
+">
+  <div style="background-color: blueviolet;">100px</div>
+  <div style="background-color: aqua;">1fr</div>
+  <div style="background-color: blueviolet;">1fr</div>
+</div>
+
+<div  style="
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  ">
+    <div style="background-color: blueviolet;">div 1</div>
+    <div style="background-color: aqua;">1fr <p>This is paragraph</p>
+    </div>
+</div>
+ 
+<div  style="
+margin-top: 30px;
+display: grid;
+grid-template-columns: 100px 1fr 2fr;
+">
+  <div style="background-color: blueviolet;">100px</div>
+  <div style="background-color: aqua;">1fr</div>
+  <div style="background-color: blueviolet;">2fr</div>
+</div>
+
+<div  style="
+margin-top: 30px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+">
+  <div style="background-color: blueviolet; height: 200px;">1fr</div>
+  <div style="background-color: aqua; height: 200px;">1fr</div>
+  <div style="background-color: yellowgreen; height: 200px;">1fr</div>
+  <div style="background-color: yellowgreen; height: 200px;">1fr</div>
+  <div style="background-color: blueviolet; height: 200px;">1fr</div>
+  <div style="background-color: aqua; height: 200px;">1fr</div>
+</div>
+
+</body>
+</html> 
